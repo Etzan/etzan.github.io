@@ -908,6 +908,7 @@ a.article-title:hover {
   position: relative;
   color: #999;
   text-shadow: 0 1px #fff;
+  text-decoration: inherit;
 }
 .article-share-weibo:before,
 .article-share-qq:before,
