@@ -171,11 +171,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: 0.8s /*ease-out*/;
-  -moz-transition: 0.8s /*ease-out*/;
-  -ms-transition: 0.8s /*ease-out*/;
-  transition: 0.8s /*ease-out*/;
+  -webkit-transition: 0.4s ease-out;
+  -moz-transition: 0.4s ease-out;
+  -ms-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
   z-index: 1;
+  background: #eee;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -1009,7 +1010,7 @@ a.article-title:hover {
   margin-left: 1em;
 }
 #comments {
-  background-image: url("/css/images/linedpaper2.png");
+  background: #fcfcfc;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
   padding: 25px 25px 0px 25px;
@@ -1146,13 +1147,7 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: right #262a30;
-  background-image: url("/css/images/ft.png");
-  background-repeat: no-repeat;
-  background-position: 90%;
-  -webkit-background-size: auto 35%;
-  -moz-background-size: auto 35%;
-  background-size: auto 35%;
+  background: #262a30;
   padding: 50px 0;
   border-top: 7px solid #f18c1e;
   color: #596271;
@@ -1167,6 +1162,12 @@ a.article-title:hover {
 #footer-info {
   line-height: 1.6em;
   font-size: 1em;
+}
+#footer-info.inner {
+  background: url("/css/images/ft.png") right no-repeat;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
 }
 .article-entry pre,
 .article-entry .highlight {
