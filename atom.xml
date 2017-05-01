@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>宜昌交通圈</title>
+  <subtitle>城市发展，交通先行！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ycmetro.org/"/>
+  <updated>2017-04-15T05:33:57.869Z</updated>
+  <id>http://ycmetro.org/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大学路今晨半封闭维修</title>
+    <link href="http://ycmetro.org/2017/04/uni-road-renew/"/>
+    <id>http://ycmetro.org/2017/04/uni-road-renew/</id>
+    <published>2017-04-15T04:38:08.000Z</published>
+    <updated>2017-04-15T05:33:57.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天0时，大学路开始半封闭施工，9处800多平方米的坑洼被填平；维修持续约5小时。<a id="more"></a><br>此次施工是大学路在封闭改造前西陵区住建部门针对该路段因长期承受较大交通负载所造成的路面破损进行的重要维护。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天0时，大学路开始半封闭施工，9处800多平方米的坑洼被填平；维修持续约5小时。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>你好，共享单车!</title>
+    <link href="http://ycmetro.org/2017/04/hello-bike-sharing/"/>
+    <id>http://ycmetro.org/2017/04/hello-bike-sharing/</id>
+    <published>2017-04-10T12:54:54.000Z</published>
+    <updated>2017-04-11T08:03:22.609Z</updated>
+    
+    <content type="html"><![CDATA[<p>继 4 月 6 日摩拜单车进入枝江后，8 日，ofo 共享单车正式入驻宜昌城区。目前已在城区核心商圈和滨江公园投放车辆，市民可扫码用车。此外，ofo 在本月周五、六、日可免费骑行。<a id="more"></a><br>与市政公共自行车不同，共享单车无需停回固定自行车锁桩，租用方式灵活，押金较低。<br>宜昌是 ofo 在湖北省落地的第二座城市，相信摩拜也将在不久后进驻城区。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;继 4 月 6 日摩拜单车进入枝江后，8 日，ofo 共享单车正式入驻宜昌城区。目前已在城区核心商圈和滨江公园投放车辆，市民可扫码用车。此外，ofo 在本月周五、六、日可免费骑行。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="bike sharing" scheme="http://ycmetro.org/tags/bike-sharing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://ycmetro.org/2017/04/hello-world/"/>
+    <id>http://ycmetro.org/2017/04/hello-world/</id>
+    <published>2017-04-08T10:39:19.727Z</published>
+    <updated>2017-04-21T15:54:52.306Z</updated>
+    
+    <content type="html"><![CDATA[<p><center><blockqoute>欢迎访问宜昌交通圈主页 <a href="http://ycmetro.org/">ycmetro</a> ! 这是我们的第一则消息。 </blockqoute></center><a id="more"></a><br><img src="/2017/04/hello-world/pic1.png" alt="Welcome!"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;center&gt;&lt;blockqoute&gt;欢迎访问宜昌交通圈主页 &lt;a href=&quot;http://ycmetro.org/&quot;&gt;ycmetro&lt;/a&gt; ! 这是我们的第一则消息。 &lt;/blockqoute&gt;&lt;/center&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
