@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="宜昌交通圈">
 <meta property="og:description" content="宜昌公交快讯提供及时、准确的宜昌城区公共交通资讯。">
 <meta property="og:image" content="http://ycmetro.org/media/logo-ag.png">
-<meta property="og:updated_time" content="2017-05-05T06:05:59.225Z">
+<meta property="og:updated_time" content="2017-05-05T08:04:14.789Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="欢迎关注「宜昌公交快讯」公众号">
 <meta name="twitter:description" content="宜昌公交快讯提供及时、准确的宜昌城区公共交通资讯。">
@@ -21,11 +21,13 @@
   
     <link rel="alternate" href="/atom.xml" title="宜昌交通圈" type="application/atom+xml">
   
+  <link rel="stylesheet" href="/icon.css">
   
     <link rel="alternate" href="/sitemap.xml" title="宜昌交通圈" type="application/sitemap+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
   
   
   
@@ -77,6 +79,12 @@
     </div>
   </div>
   <script>
+    /*
+    var d = new Date();
+    var m = d.getMinutes();
+    var num = Math.ceil((m + 1) / (60 / 2));
+    document.getElementById("banner").style.backgroundImage = "url(/css/images/banner" + num + ".jpg)";
+    */
     
     var d = new Date();
     var m = d.getMinutes();
@@ -92,7 +100,7 @@
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img fancybox" href="/media/logo-ag.png" rel="gallery_cj2bhd09200022ctr9ocu2vag">
+      <a class="article-gallery-img fancybox" href="/media/logo-ag.png" rel="gallery_cj2bn83fr0004fctrzvik1x9i">
         <img src="/media/logo-ag.png" itemprop="image">
       </a>
     
@@ -134,7 +142,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ycmetro.org/2017/05/yc-bus-exp/" data-id="cj2bhd09200022ctr9ocu2vag" class="article-share-link">分享</a>
+      <a data-url="http://ycmetro.org/2017/05/yc-bus-exp/" data-id="cj2bn83fr0004fctrzvik1x9i" class="article-share-link">分享</a>
       
         <a href="http://ycmetro.org/2017/05/yc-bus-exp/#lv-container" class="article-comment-link">讨论</a>
       
@@ -272,10 +280,19 @@
 <script type="text/javascript">
 //<![CDATA[
 if (typeof jQuery == 'undefined') {
-  document.write(unescape("%3Cscript src='/js/jquery-2.0.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+  document.write(unescape("%3Cscript src='/css/js/jquery-2.0.3.min.js' type='text/javascript'%3E%3C/script%3E"));
 }
 // ]]>
 </script>
+<script type="text/javascript" src="//apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+      $(function() {    
+          $("img").lazyload({
+            placeholder:"/images/loading.gif",
+              effect:"fadeIn"
+            });
+          });
+    </script>
 <script type="text/javascript" src="//tajs.qq.com/stats?sId=61618541" charset="UTF-8"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>

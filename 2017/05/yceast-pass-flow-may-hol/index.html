@@ -21,11 +21,13 @@
   
     <link rel="alternate" href="/atom.xml" title="宜昌交通圈" type="application/atom+xml">
   
+  <link rel="stylesheet" href="/icon.css">
   
     <link rel="alternate" href="/sitemap.xml" title="宜昌交通圈" type="application/sitemap+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
   
   
   
@@ -77,6 +79,12 @@
     </div>
   </div>
   <script>
+    /*
+    var d = new Date();
+    var m = d.getMinutes();
+    var num = Math.ceil((m + 1) / (60 / 2));
+    document.getElementById("banner").style.backgroundImage = "url(/css/images/banner" + num + ".jpg)";
+    */
     
     var d = new Date();
     var m = d.getMinutes();
@@ -92,7 +100,7 @@
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img fancybox" href="/media/Yichang_East_Railway_Station.jpg" rel="gallery_cj2bhd09g00062ctrd3qlvbrv">
+      <a class="article-gallery-img fancybox" href="/media/Yichang_East_Railway_Station.jpg" rel="gallery_cj2bn83fv0006fctrjvclp548">
         <img src="/media/Yichang_East_Railway_Station.jpg" itemprop="image">
       </a>
     
@@ -128,7 +136,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ycmetro.org/2017/05/yceast-pass-flow-may-hol/" data-id="cj2bhd09g00062ctrd3qlvbrv" class="article-share-link">分享</a>
+      <a data-url="http://ycmetro.org/2017/05/yceast-pass-flow-may-hol/" data-id="cj2bn83fv0006fctrjvclp548" class="article-share-link">分享</a>
       
         <a href="http://ycmetro.org/2017/05/yceast-pass-flow-may-hol/#lv-container" class="article-comment-link">讨论</a>
       
@@ -271,10 +279,19 @@
 <script type="text/javascript">
 //<![CDATA[
 if (typeof jQuery == 'undefined') {
-  document.write(unescape("%3Cscript src='/js/jquery-2.0.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+  document.write(unescape("%3Cscript src='/css/js/jquery-2.0.3.min.js' type='text/javascript'%3E%3C/script%3E"));
 }
 // ]]>
 </script>
+<script type="text/javascript" src="//apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+      $(function() {    
+          $("img").lazyload({
+            placeholder:"/images/loading.gif",
+              effect:"fadeIn"
+            });
+          });
+    </script>
 <script type="text/javascript" src="//tajs.qq.com/stats?sId=61618541" charset="UTF-8"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
