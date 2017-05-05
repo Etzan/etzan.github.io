@@ -171,11 +171,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: 0.2s cubic-bezier(0, 3.65, 0, -0.24);
-  -moz-transition: 0.2s cubic-bezier(0, 3.65, 0, -0.24);
-  -ms-transition: 0.2s cubic-bezier(0, 3.65, 0, -0.24);
-  transition: 0.2s cubic-bezier(0, 3.65, 0, -0.24);
-/*transition: 0.3s cubic-bezier(1, -0.39, 1, -0.39)*/
+  -webkit-transition: 0.3s cubic-bezier(1, -0.39, 1, -0.39);
+  -moz-transition: 0.3s cubic-bezier(1, -0.39, 1, -0.39);
+  -ms-transition: 0.3s cubic-bezier(1, -0.39, 1, -0.39);
+  transition: 0.3s cubic-bezier(1, -0.39, 1, -0.39);
   z-index: 1;
   background: #eee;
 }
