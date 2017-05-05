@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ycmetro.org/about/index.html</loc>
+    
+    <lastmod>2017-05-05T10:01:43.770Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ycmetro.org/2017/05/yc-bus-exp/</loc>
     
     <lastmod>2017-05-05T08:04:14.789Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://ycmetro.org/2017/05/yceast-pass-flow-may-hol/</loc>
     
     <lastmod>2017-05-04T17:28:18.553Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ycmetro.org/about/index.html</loc>
-    
-    <lastmod>2017-04-21T16:06:42.427Z</lastmod>
     
   </url>
   
