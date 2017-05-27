@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ycmetro.org/"/>
-  <updated>2017-05-27T17:03:34.806Z</updated>
+  <updated>2017-05-27T17:09:12.225Z</updated>
   <id>http://ycmetro.org/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,7 +15,7 @@
     <link href="http://ycmetro.org/2017/05/mobike-arrival/"/>
     <id>http://ycmetro.org/2017/05/mobike-arrival/</id>
     <published>2017-05-27T15:52:49.000Z</published>
-    <updated>2017-05-27T17:03:34.806Z</updated>
+    <updated>2017-05-27T17:09:12.225Z</updated>
     
     <content type="html"><![CDATA[<p>转眼间，HelloBike 进入宜昌已一周有余。由于大规模的投放和更加可靠的定位、解锁方式，在与 ofo 的竞争中，HelloBike 似乎是后来者居上。</p>
 <p>虽然 ofo 小黄车的机械锁可靠性较差，但是较低的使用门槛加上先入为主的观念，还是吸引了不少市民使用骑行。而 HelloBike 的使用押金比 ofo 要贵上一倍，较高的押金给予了相对较高的可用性。</p>
@@ -32,6 +32,8 @@
     
     </summary>
     
+    
+      <category term="bike sharing" scheme="http://ycmetro.org/tags/bike-sharing/"/>
     
   </entry>
   
