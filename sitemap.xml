@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ycmetro.org/2017/05/yc-bus-exp/</loc>
+    
+    <lastmod>2017-05-28T05:17:54.965Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ycmetro.org/2017/05/airport-t2/</loc>
     
     <lastmod>2017-05-27T17:13:47.833Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://ycmetro.org/about/index.html</loc>
     
     <lastmod>2017-05-05T10:01:43.770Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ycmetro.org/2017/05/yc-bus-exp/</loc>
-    
-    <lastmod>2017-05-05T08:04:14.789Z</lastmod>
     
   </url>
   
