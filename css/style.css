@@ -1379,7 +1379,7 @@ pre .javascript .function {
     left: 0;
     width: 280px;
     height: 100%;
-    background: #262a30;
+    background: #fff;
     border-right: 1px solid #fff;
   }
 }
@@ -1393,6 +1393,7 @@ pre .javascript .function {
   }
   .mobile-nav-link:hover {
     color: #1159a8;
+    background-color: #eee;
   }
 }
 @media screen and (min-width: 768px) {
