@@ -55,10 +55,10 @@
         '<div id="' + id + '" class="article-share-box">',
           '<input class="article-share-input" value="' + url + '">',
           '<div class="article-share-links">',
-'<a href="http://service.weibo.com/share/share.php?&searchPic=true&url=' + encodedUrl + '" class="article-share-weibo" target="_blank" title="微博"></a>',
-'<a href="http://shuo.douban.com/!service/share?&href=' + encodedUrl + '" class="article-share-douban" target="_blank" title="豆瓣"></a>',
-'<a href="http://connect.qq.com/widget/shareqq/index.html?url=' + encodedUrl + '" class="article-share-qq" target="_blank" title="QQ"></a>',
-'<a href="http://qr.liantu.com/api.php?text=' + encodedUrl + '" class="article-share-nowechat" target="_blank" title="二维码"></a>',
+'<a href="http://service.weibo.com/share/share.php?&searchPic=true&url=' + encodedUrl + '" class="article-share-weibo" target="_blank" title="Weibo (接口故障，请复制链接后分享)"></a>',
+'<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+'<a href="http://connect.qq.com/widget/shareqq/index.html?url=' + encodedUrl + '" class="article-share-qq" target="_blank" title="QQ - TIM"></a>',
+'<a href="http://qr.liantu.com/api.php?text=' + encodedUrl + '" class="article-share-nowechat" target="_blank" title="QRcode (微信无法跳转，请使用其他工具)"></a>',
           '</div>',
         '</div>'
       ].join('');

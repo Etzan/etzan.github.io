@@ -920,7 +920,7 @@ a.article-category-link:hover {
 }
 .article-share-weibo,
 .article-share-qq,
-.article-share-douban,
+.article-share-twitter,
 .article-share-nowechat {
   width: 50px;
   height: 36px;
@@ -933,7 +933,7 @@ a.article-category-link:hover {
 }
 .article-share-weibo:before,
 .article-share-qq:before,
-.article-share-douban:before,
+.article-share-twitter:before,
 .article-share-nowechat:before {
   font-size: 20px;
   font-family: FontAwesome;
@@ -948,7 +948,7 @@ a.article-category-link:hover {
 }
 .article-share-weibo:hover,
 .article-share-qq:hover,
-.article-share-douban:hover,
+.article-share-twitter:hover,
 .article-share-nowechat:hover {
   color: #fff;
 }
@@ -956,29 +956,29 @@ a.article-category-link:hover {
   content: "\f18a";
 }
 .article-share-weibo:hover {
-  background: #fd4d17;
-  text-shadow: 0 1px #db3502;
+  background: #eb192d;
+  text-shadow: 0 1px #bf1121;
 }
 .article-share-qq:before {
   content: "\f1d6";
 }
 .article-share-qq:hover {
-  background: #fc3;
-  text-shadow: 0 1px #f5b800;
+  background: #707070;
+  text-shadow: 0 1px #5a5a5a;
 }
-.article-share-douban:before {
-  content: "\f1e0";
+.article-share-twitter:before {
+  content: "\f099";
 }
-.article-share-douban:hover {
-  background: #44b549;
-  text-shadow: 0 1px #36913a;
+.article-share-twitter:hover {
+  background: #1da1f2;
+  text-shadow: 0 1px #0c84cd;
 }
 .article-share-nowechat:before {
   content: "\f029";
 }
 .article-share-nowechat:hover {
-  background: #707070;
-  text-shadow: 0 1px #5a5a5a;
+  background: #fc3;
+  text-shadow: 0 1px #f5b800;
 }
 .article-gallery {
   background: #262a30;
