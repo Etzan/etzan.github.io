@@ -737,7 +737,7 @@ a.article-title:hover {
   line-height: 1.6em;
   border-top: 1px solid #ddd;
   padding-top: 1.6em;
-  margin: 6px 25px 20px 25px;
+  margin: 8px 25px 20px 25px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -1392,17 +1392,17 @@ pre .javascript .function {
     font-weight: bold;
     border-top: 7px solid #eee;
     border-right: 7px solid #1159a8;
-    background: -webkit-linear-gradient(left, #09c 15%, #1159a8 100%);
-    background: -moz-linear-gradient(left, #09c 15%, #1159a8 100%);
-    background: -ms-linear-gradient(left, #09c 15%, #1159a8 100%);
-    background: linear-gradient(to right, #09c 15%, #1159a8 100%);
+    background: -webkit-linear-gradient(left, #09c 12%, #1159a8 100%);
+    background: -moz-linear-gradient(left, #09c 12%, #1159a8 100%);
+    background: -ms-linear-gradient(left, #09c 12%, #1159a8 100%);
+    background: linear-gradient(to right, #09c 12%, #1159a8 100%);
   }
   .mobile-nav-link:hover {
     color: #fff;
-    background: -webkit-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
-    background: -moz-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
-    background: -ms-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
-    background: linear-gradient(to right, #ffc200 0%, #f18c1e 100%);
+    background: -webkit-linear-gradient(left, #ffc200 7%, #f18c1e 100%);
+    background: -moz-linear-gradient(left, #ffc200 7%, #f18c1e 100%);
+    background: -ms-linear-gradient(left, #ffc200 7%, #f18c1e 100%);
+    background: linear-gradient(to right, #ffc200 7%, #f18c1e 100%);
     border-right: 7px solid #f18c1e;
     border-top: 35px solid #eee;
   }
