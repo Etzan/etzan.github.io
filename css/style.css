@@ -1116,10 +1116,9 @@ a.article-category-link:hover {
 #page-nav {
   zoom: 1;
   margin: 50px auto;
-  background: #fff;
+  background: #fcfcfc;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
   border-radius: 3px;
   text-align: center;
   color: #999;
@@ -1144,7 +1143,7 @@ a.article-category-link:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #999;
+  background: #1159a8;
   color: #fff;
 }
 #page-nav .prev {
