@@ -1379,21 +1379,32 @@ pre .javascript .function {
     left: 0;
     width: 280px;
     height: 100%;
-    background: #fff;
+    background: #eee;
     border-right: 1px solid #fff;
   }
 }
 @media screen and (max-width: 479px) {
   .mobile-nav-link {
     display: block;
-    color: #999;
+    color: #fff;
     text-decoration: none;
     padding: 15px 20px;
     font-weight: bold;
+    border-left: 5px solid #ffc200;
+    border-bottom: 5px solid #fff;
+    background: -webkit-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
+    background: -moz-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
+    background: -ms-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
+    background: linear-gradient(to right, #ffc200 0%, #f18c1e 100%);
   }
   .mobile-nav-link:hover {
-    color: #1159a8;
-    background-color: #eee;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #09c 0%, #1159a8 100%);
+    background: -moz-linear-gradient(left, #09c 0%, #1159a8 100%);
+    background: -ms-linear-gradient(left, #09c 0%, #1159a8 100%);
+    background: linear-gradient(to right, #09c 0%, #1159a8 100%);
+    border-left: 5px solid #09c;
+    border-bottom: 3px solid #fff;
   }
 }
 @media screen and (min-width: 768px) {
