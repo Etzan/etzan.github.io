@@ -171,10 +171,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-  -moz-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-  -ms-transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
-  transition: 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
   z-index: 1;
   background: #fafafa;
 /*border-bottom: 2px solid #eee*/
@@ -209,8 +209,8 @@ body {
   background: #fff;
   -webkit-box-shadow: 0 0 10px -1px #ccd1d9;
   box-shadow: 0 0 10px -1px #ccd1d9;
-/*border: 1px solid #eee
-  border-radius: 3px*/
+  border: 1px solid #ddd;
+/*border-radius: 3px*/
   display: block;
 }
 .article-entry h1,
@@ -424,6 +424,7 @@ body {
 #main-nav {
   float: left;
   margin-left: -15px;
+  line-height: 15px;
 }
 .nav-icon,
 .main-nav-link {
@@ -458,7 +459,7 @@ body {
   cursor: pointer;
 }
 .main-nav-link {
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 479px) {
@@ -468,6 +469,7 @@ body {
 }
 #main-nav-toggle {
   display: none;
+  line-height: 12px;
 }
 #main-nav-toggle:before {
   content: "\f0c9";
@@ -480,6 +482,7 @@ body {
 #sub-nav {
   float: right;
   margin-right: -15px;
+  line-height: 12px;
 }
 #nav-rss-link:before {
   content: "\f09e";
@@ -721,9 +724,10 @@ a.article-title:hover {
   line-height: 1em;
   padding: 6px 15px;
   border-radius: 15px;
-  background: #ededed;
+  background: #fff;
   color: #999;
 /*text-shadow: 0 1px #fff*/
+  border: 1px solid #ddd;
   text-decoration: none;
 }
 .article-more-link a:hover {
@@ -865,7 +869,7 @@ a.article-category-link:hover {
 .article-nav-caption {
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #aaa;
+  color: #ccc;
   line-height: 1em;
   font-weight: bold;
 }
@@ -876,6 +880,7 @@ a.article-category-link:hover {
   font-size: 0.85em;
   line-height: 1.6em;
   margin-top: 0.5em;
+  color: #aaa;
 }
 .article-share-box {
   position: absolute;
@@ -1037,7 +1042,7 @@ a.article-category-link:hover {
   -webkit-box-shadow: 0 0 10px -1px #ccd1d9;
   box-shadow: 0 0 10px -1px #ccd1d9;
   padding: 12px 23px 6px 23px;
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
 /*border-radius: 3px*/
   margin: 50px 0;
 }
@@ -1425,7 +1430,7 @@ pre .javascript .function {
 /*box-shadow: 0 -1px 4px #ccc inset*/
   -webkit-box-shadow: 0 0 10px -2px #ccd1d9;
   box-shadow: 0 0 10px -2px #ccd1d9;
-/*border: 1px solid #ddd*/
+  border: 1px solid rgba(0,0,0,0.1);
   padding: 15px;
 /*border-radius: 3px*/
 }
