@@ -2,27 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ycmetro.org/en/news.html</loc>
-    
-    <lastmod>2017-09-23T16:51:39.344Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ycmetro.org/en/css/style.css</loc>
-    
-    <lastmod>2017-09-23T16:50:41.586Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ycmetro.org/en/index.html</loc>
-    
-    <lastmod>2017-09-23T16:29:10.396Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ycmetro.org/2017/09/act-10-1/</loc>
     
     <lastmod>2017-09-22T16:35:45.323Z</lastmod>
@@ -96,13 +75,6 @@
     <loc>http://ycmetro.org/2017/04/hello-bike-sharing/</loc>
     
     <lastmod>2017-04-11T08:03:22.609Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ycmetro.org/en/css/font-awesome.min.css</loc>
-    
-    <lastmod>2017-02-07T15:08:54.000Z</lastmod>
     
   </url>
   
