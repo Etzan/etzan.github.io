@@ -43,7 +43,7 @@ a:hover, a:active, a:focus {
 	max-width: 1260px;
 	min-width: 400px;
 	background-color: #FFFFFF;
-	border:#999999 1px solid;
+	border:#1159A8 1px solid;
 	-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
 	-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
 	box-shadow:2px 2px 10px #909090;/*opera或ie9*/
@@ -103,7 +103,7 @@ a:hover, a:active, a:focus {
 /* 导航样式 */
 ul.nav {
 	list-style: none;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	line-height: 25px;
 }
 ul.nav a, ul.nav a:visited {
