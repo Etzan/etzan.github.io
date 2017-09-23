@@ -731,7 +731,10 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #555;
+  background: -webkit-linear-gradient(left, #09c 0%, #1159a8 100%);
+  background: -moz-linear-gradient(left, #09c 0%, #1159a8 100%);
+  background: -ms-linear-gradient(left, #09c 0%, #1159a8 100%);
+  background: linear-gradient(to right, #09c 0%, #1159a8 100%);
   color: #fff;
   text-decoration: none;
 /*text-shadow: 0 1px darken(color-link, 20%)*/
@@ -1122,10 +1125,13 @@ a.article-category-link:hover {
 #page-nav {
   zoom: 1;
   margin: 50px auto;
-  background: #fcfcfc;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
-  border-radius: 3px;
+  background: -webkit-linear-gradient(left, #fff 0%, #fefefe 100%);
+  background: -moz-linear-gradient(left, #fff 0%, #fefefe 100%);
+  background: -ms-linear-gradient(left, #fff 0%, #fefefe 100%);
+  background: linear-gradient(to right, #fff 0%, #fefefe 100%);
+  -webkit-box-shadow: 0 0 10px -2px #ccd1d9;
+  box-shadow: 0 0 10px -2px #ccd1d9;
+  border: 1px solid #ddd;
   text-align: center;
   color: #999;
   overflow: hidden;
@@ -1149,7 +1155,10 @@ a.article-category-link:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #1159a8;
+  background: -webkit-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
+  background: -moz-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
+  background: -ms-linear-gradient(left, #ffc200 0%, #f18c1e 100%);
+  background: linear-gradient(to right, #ffc200 0%, #f18c1e 100%);
   color: #fff;
 }
 #page-nav .prev {
