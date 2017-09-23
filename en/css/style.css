@@ -1,0 +1,237 @@
+@charset "utf-8";
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 100%;
+	background-color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+	color: #333333;
+}
+
+/* 元素 */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+	/*list-style-type: none;*/
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0 auto 8px auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+	vertical-align: middle;
+}
+
+/* 站点链 */
+a:link {
+	color: #201B1C;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+	color: #1159A8;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+/* 容器 */
+.container {
+	width: 80%;
+	max-width: 1260px;
+	min-width: 400px;
+	background-color: #FFFFFF;
+	border:#1159A8 1px solid;
+	-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+	box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+	margin: 0 auto;
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+/* 头部 */
+.header {
+	background: #888888 url(../media/Yichang_BRT_rt.svg) right no-repeat;
+	background-size:auto 90px;
+	font-family: notosans;
+	text-align: left;
+	border-bottom: 8px solid #1159A8;
+	margin: 8px;
+}
+
+/* 列 */
+.sidebar {
+	float: right;
+	width: 20%;
+	background-color: #FFFFFF;
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+
+.content {
+	padding: 15px auto 15px 8px;
+	width: 78%;
+	float: left;
+}
+
+/* 内容选择器 */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px;
+}
+.content table {
+	width: 90%;
+	border-collapse:collapse;
+	margin: 5px auto 15px auto;
+}
+.content table, .content td, .content th {
+	border: 1px solid #888888;
+}
+.content td {
+	padding: 3px 5px 3px 5px;
+	background: #F5F5F5;
+}
+.content th {
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;
+	background: #EAEAEA;
+}
+
+/* 导航样式 */
+ul.nav {
+	list-style: none;
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+ul.nav a, ul.nav a:visited {
+	border-bottom: 1px solid #666666;
+	padding: 5px 15px 5px 15px;
+	display: block;
+	text-decoration: none;
+	background-color: #888888;
+	color: #FFFFFF;
+	padding-left: 25%;
+}
+
+ul.nav li.active a, ul.nav a:focus {
+	background-color: #F18C1E;/* 备选颜色 #1159A8 */
+}
+ul.nav a:active, ul.nav a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+span.ref li {
+	list-style-type: none;
+	padding: 2px 15px 2px 15px;
+}
+span.ref a{
+	text-align: center;
+	color: #201B1C;
+	text-decoration: none;
+}
+
+/* 底部 */
+.footer {
+	padding: 12px 0 15px 0;
+	background: #888888;
+	position: relative;
+	border-top: 8px solid #F18C1E;
+	clear: both;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 8px;
+}
+i.fa.fa-arrow-circle-up.fa-fw {
+	color: #A9A9A9
+}
+
+/* 其它类 */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+/* carousel 相册 */
+.css-carousel {
+	width: 100%;
+	height: 380px;
+	position: relative;
+	overflow: hidden;
+}
+.css-carousel .css-img {
+	max-width: 100%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	padding-left: 0px;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	opacity: 0;
+	-webkit-animation: css-carousel-fade 30s linear infinite;
+	-moz-animation: css-carousel-fade 30s linear infinite;
+	-ms-animation: css-carousel-fade 30s linear infinite;
+	animation: css-carousel-fade 30s linear infinite;
+}
+.css-carousel .css-img:nth-child(2) {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	animation-delay: 5s;
+}
+.css-carousel .css-img:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
+}
+.css-carousel .css-img:nth-child(4) {
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	animation-delay: 15s;
+}
+.css-carousel .css-img:nth-child(5) {
+	-webkit-animation-delay: 20s;
+	-moz-animation-delay: 20s;
+	-ms-animation-delay: 20s;
+	animation-delay: 20s;
+}
+.css-carousel .css-img:nth-child(6) {
+	-webkit-animation-delay: 25s;
+	-moz-animation-delay: 25s;
+	-ms-animation-delay: 25s;
+	animation-delay: 25s;
+}
+
+}
+@-webkit-keyframes css-carousel-fade {
+    0%, 10%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-moz-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-ms-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@keyframes css-carousel-fade {
+	0%, 20%, 100% { opacity: 0; }
+	5%, 15% { opacity: 1;}
+}
+

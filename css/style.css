@@ -171,10 +171,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  -ms-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   z-index: 1;
   background: #fafafa;
 /*border-bottom: 2px solid #eee*/
@@ -672,7 +672,7 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: #555;
+  color: #1159a8;
   text-decoration: none;
 }
 .article-entry a:hover {
