@@ -586,6 +586,9 @@ a.article-date:hover {
   color: #ddd;
   content: "\f073";
 }
+.article-updated {
+  line-height: 20px;
+}
 .article-header {
   padding: 25px 25px 0;
 }
@@ -765,6 +768,7 @@ a.article-title:hover {
 .article-tag-list-item {
   float: left;
   margin-right: 10px;
+  line-height: 20px;
 }
 .article-tag-list-link:before {
   content: "#";
