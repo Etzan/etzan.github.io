@@ -584,7 +584,7 @@ a.article-date:hover {
 .article-date:before {
   font-family: FontAwesome;
   color: #ddd;
-  content: "\f073";
+  content: "\f073  ";
 }
 .article-updated {
   line-height: 20px;
@@ -797,7 +797,7 @@ a.article-title:hover {
 }
 .article-category:before {
   font-family: FontAwesome;
-  content: "\f2bd";
+  content: "\f2bd  ";
   color: #ddd;
 }
 .article-category-link {
