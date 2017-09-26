@@ -421,7 +421,7 @@ body {
 }
 #logo {
   font-size: 60px;
-  line-height: 60px;
+  line-height: 55px;
   letter-spacing: 2px;
   font-weight: 400;
   text-shadow: 0 1px rgba(0,0,0,0.2);
@@ -1422,7 +1422,6 @@ pre .javascript .function {
     width: 280px;
     height: 100%;
     background: #fafafa;
-    border-right: 1px solid #fff;
   }
 }
 @media screen and (max-width: 479px) {
