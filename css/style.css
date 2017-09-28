@@ -606,7 +606,7 @@ a.article-date:hover {
   float: left;
 }
 .article-updated:before {
-  content: "// UPDT";
+  content: "// UPDT ";
 }
 #busuanzi_value_page_pv {
   line-height: 20px;
