@@ -1162,8 +1162,6 @@ a.article-category-link:hover {
   background: -moz-linear-gradient(left, #fff 0%, #fefefe 100%);
   background: -ms-linear-gradient(left, #fff 0%, #fefefe 100%);
   background: linear-gradient(to right, #fff 0%, #fefefe 100%);
-  -webkit-box-shadow: 0 0 10px -2px #ccd1d9;
-  box-shadow: 0 0 10px -2px #ccd1d9;
   border: 1px solid #ddd;
   text-align: center;
   color: #999;
@@ -1188,7 +1186,10 @@ a.article-category-link:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #999;
+  background: -webkit-linear-gradient(left, #ddd 0%, #999 100%);
+  background: -moz-linear-gradient(left, #ddd 0%, #999 100%);
+  background: -ms-linear-gradient(left, #ddd 0%, #999 100%);
+  background: linear-gradient(to right, #ddd 0%, #999 100%);
   color: #fff;
 }
 #page-nav .prev {
