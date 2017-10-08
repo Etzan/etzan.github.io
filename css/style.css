@@ -421,14 +421,14 @@ body {
 }
 #logo {
   font-size: 60px;
-  line-height: 55px;
+  line-height: 50px;
   letter-spacing: 2px;
   font-weight: 400;
   text-shadow: 0 1px rgba(0,0,0,0.2);
 }
 #subtitle {
   font-size: 30px;
-  line-height: 0px;
+  line-height: 20px;
   letter-spacing: 3px;
   text-shadow: 0 1px rgba(0,0,0,0.2);
 }
