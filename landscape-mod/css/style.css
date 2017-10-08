@@ -1095,10 +1095,10 @@ a.article-title:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: -webkit-linear-gradient(left, #ddd 0%, #777 100%);
-  background: -moz-linear-gradient(left, #ddd 0%, #777 100%);
-  background: -ms-linear-gradient(left, #ddd 0%, #777 100%);
-  background: linear-gradient(to right, #ddd 0%, #777 100%);
+  background: -webkit-linear-gradient(left, #ddd 0%, #aaa 100%);
+  background: -moz-linear-gradient(left, #ddd 0%, #aaa 100%);
+  background: -ms-linear-gradient(left, #ddd 0%, #aaa 100%);
+  background: linear-gradient(to right, #ddd 0%, #aaa 100%);
   color: #fff;
 }
 #page-nav .prev {
