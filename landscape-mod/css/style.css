@@ -550,7 +550,7 @@ body {
   float: left;
 }
 a.article-date:hover {
-  color: #1159a8;
+  color: #555;
 }
 .article-date:before {
   font-family: FontAwesome;
@@ -571,7 +571,7 @@ a.article-date:hover {
   margin: 0 5px 1em;
 }
 a.article-category-link:hover {
-  color: #1159a8;
+  color: #555;
 }
 .article-header {
   padding: 20px 20px 0;
@@ -588,7 +588,7 @@ a.article-category-link:hover {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #1159a8;
+  opacity: 0.6;
 }
 .article-entry {
   color: #555;
@@ -1375,6 +1375,7 @@ pre .javascript .function {
   text-decoration: none;
 }
 .widget a:hover {
+  color: #555;
   text-decoration: underline;
 }
 .widget ul ul,
