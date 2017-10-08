@@ -588,7 +588,7 @@ a.article-category-link:hover {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  opacity: 0.6;
+  color: #000;
 }
 .article-entry {
   color: #555;
@@ -1052,7 +1052,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #1159a8;
+  color: #000;
 }
 .archive-article-footer {
   margin-top: 1em;
