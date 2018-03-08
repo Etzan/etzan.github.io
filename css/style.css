@@ -125,7 +125,7 @@ body,
 }
 body {
   background: #fafafa;
-  font: 14px "Frutiger Neue", "Frutiger", "Myriad Pro", "Lato", "Helvetica Neue", "Helvetica", Arial, "Heiti SC", "Hiragino Sans GB", "STHeiti", "Source Han Sans CN", "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+  font: 14px "Frutiger Neue", "Frutiger", "Myriad Pro", "Lato", "Helvetica Neue", "Helvetica", Arial, "Heiti SC", "Hiragino Sans GB", "STHeiti", "Source Han Sans CN", "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
